@@ -3,6 +3,8 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 import App from './App.vue'
 
+import './assets/css/delay.css'
+
 /* eslint-disable no-unused-vars */
 // import vConsole from 'vconsole'
 

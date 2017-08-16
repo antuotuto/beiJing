@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <navs></navs>
     <keep-alive>
       <router-view></router-view>
     </keep-alive>
@@ -7,6 +8,7 @@
 </template>
 
 <script>
+import navs from '~/components/navs.vue'
 
 export default {
   data () {
@@ -16,6 +18,9 @@ export default {
   methods: {
 
   },
+  components: {
+    navs
+  }
 }
 </script>
 
@@ -24,5 +29,6 @@ export default {
   font-family: Helvetica, sans-serif;
   text-align: center;
   height:100%;
+  overflow: hidden;
 }
 </style>
