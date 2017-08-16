@@ -1,7 +1,19 @@
 <template>
 <div class="something">
-  11
-
+  <el-row :gutter="0">
+    <el-col :xs="12" :sm="6" :md="4" :lg="3">
+      <div class="">1</div>
+    </el-col>
+    <el-col :xs="12" :sm="6" :md="8" :lg="9">
+      <div class="">1</div>
+    </el-col>
+    <el-col :xs="12" :sm="6" :md="8" :lg="9">
+      <div class="">1</div>
+    </el-col>
+    <el-col :xs="12" :sm="6" :md="4" :lg="3">
+      <div class="">1</div>
+    </el-col>
+  </el-row>
 </div>
 </template>
 
@@ -27,7 +39,7 @@ export default {
 <style scoped lang="scss">
 @media screen and (max-width:900px) {
     .something {
-        height: 100%;
+
     }
 }
 @media screen and (min-width:900px) {}

@@ -1,11 +1,10 @@
 <template>
 <div class="home">
-  <something></something>
+
 </div>
 </template>
 
 <script>
-import something from '~/components/something.vue'
 export default {
   name: 'home',
   data() {
@@ -14,7 +13,6 @@ export default {
     }
   },
   components: {
-    something
   },
   methods: {
 

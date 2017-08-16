@@ -11,7 +11,7 @@ Vue.use(Router)
 const routes = [
   {
     path: '/',
-    redirect: '/Home'
+    redirect: '/Something'
   },{
     path: '/Home',
     component: Home,
@@ -25,6 +25,9 @@ const routes = [
     //       component: Something
     //   }
     // ]
+  },{
+    path: '/Something',
+    component: Something,
   },{
         path: '*',
         component: NotFoundComponent,

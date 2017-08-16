@@ -3,6 +3,9 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 import App from './App.vue'
 
+/* eslint-disable no-unused-vars */
+// import vConsole from 'vconsole'
+
 // 路由
 import router from './router'
 
