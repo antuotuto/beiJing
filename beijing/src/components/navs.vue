@@ -38,15 +38,15 @@ export default {
 <style scoped lang="scss">
 @media screen and (max-width:900px) {
     .navs {
-      height:40px;
+      height:50px;
       background: #eee;
       position: relative;
       button{
         position: absolute;
         top:5px;
         right:5px;
-        height:30px;
-        width:30px;
+        height:40px;
+        width:40px;
         background: #777;
         border: 0;
         border-radius: 3px;
@@ -55,13 +55,13 @@ export default {
         position: absolute;
         top:5px;
         left:10px;
-        height:30px;
-        line-height: 30px;
+        height:40px;
+        line-height: 40px;
       }
       ul{
         transform: translate3d(0,-100%,0);
         transition: .3s;
-        padding-top: 40px;
+        padding-top: 50px;
         background: #eee;
         &.active{
           transform: translate3d(0,0,0);
