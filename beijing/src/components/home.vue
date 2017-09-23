@@ -12,23 +12,20 @@ export default {
 
     }
   },
-  components: {
-  },
+  components: {},
   methods: {
 
   },
   watch: {},
-  created() {
-  },
+  created() {},
 }
 </script>
 
 <style scoped lang="scss">
 @media screen and (max-width:900px) {
-  .home{
-    height:100%;
-  }
+    .home {
+        height: 100%;
     }
-@media screen and (min-width:900px) {
-    }
+}
+@media screen and (min-width:900px) {}
 </style>
